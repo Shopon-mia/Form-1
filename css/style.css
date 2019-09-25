@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{}
+header{
+    background: #5CBAFF;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    float: none;
+    padding-bottom: 2%;
+}
+.container img{
+    width: 127px;
+}
+nav{
+    text-align: center;
+}
+ul{}
+ul li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+}
+ul li a{
+    color: #f9f6f6;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.form-section{width: 100%;height: 694px;display: flex;flex-wrap: wrap;}
+.left{
+    background: #29A4FF;
+    max-width: 40%;
+    flex: 0 0 40%;
+}
+.left img{
+    width: 85%;
+    margin: 26% 0% 0% 13%;
+}
+
+.rigth{
+    background: #0093FF;
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 11% 0% 0% 19%;
+    color: #fff;
+}
+h1{
+    font-size: 25px;
+    max-width: 55%;
+}
+p{
+    max-width: 55%;
+    margin-top: 4%;
+}
+strong{
+    margin-top: 5%;
+    display: block;
+    margin-bottom: 1%;
+    letter-spacing: 1px;
+}
+b{}
+.form{
+}
+.form input{
+    width: 54%;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+input[type="Register"]{
+    width: 17%;
+    text-transform: uppercase;
+    color: #0093FF;
+}.flex{
+    margin: 25px 0;
+}
+.form p{
+    display: inline;
+    font-size: 14px;
+}
+.form a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 3px;
+}
